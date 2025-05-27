@@ -1,0 +1,17 @@
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\bin\Debug\net8.0\CSharpSpider.exe
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\bin\Debug\net8.0\CSharpSpider.deps.json
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\bin\Debug\net8.0\CSharpSpider.runtimeconfig.json
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\bin\Debug\net8.0\CSharpSpider.dll
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\bin\Debug\net8.0\CSharpSpider.pdb
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\bin\Debug\net8.0\HtmlAgilityPack.dll
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\obj\Debug\net8.0\CSharpSpider.csproj.AssemblyReference.cache
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\obj\Debug\net8.0\CSharpSpider.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\obj\Debug\net8.0\CSharpSpider.AssemblyInfoInputs.cache
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\obj\Debug\net8.0\CSharpSpider.AssemblyInfo.cs
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\obj\Debug\net8.0\CSharpSpider.csproj.CoreCompileInputs.cache
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\obj\Debug\net8.0\CSharpSpider.csproj.CopyComplete
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\obj\Debug\net8.0\CSharpSpider.dll
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\obj\Debug\net8.0\refint\CSharpSpider.dll
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\obj\Debug\net8.0\CSharpSpider.pdb
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\obj\Debug\net8.0\CSharpSpider.genruntimeconfig.cache
+D:\Users\songbo\source\repos\CSharpSpider\CSharpSpider\obj\Debug\net8.0\ref\CSharpSpider.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "w3vCyMDp8s5VQYPly9klEsgjnnGzyMTviFRgVBET+fjGRwXqpVSHHbZB1Vpc0wf3sPkHvK/RcaDyr2XehI8lLg==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\songbo\\source\\repos\\CSharpSpider\\CSharpSpider\\CSharpSpider.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\songbo\\.nuget\\packages\\htmlagilitypack\\1.12.1\\htmlagilitypack.1.12.1.nupkg.sha512"
+  ],
+  "logs": []
+}

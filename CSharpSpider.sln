@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSpider", "CSharpSpider\CSharpSpider.csproj", "{1D06BFED-BA56-477C-AF15-21F0E06AB21E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D06BFED-BA56-477C-AF15-21F0E06AB21E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D06BFED-BA56-477C-AF15-21F0E06AB21E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D06BFED-BA56-477C-AF15-21F0E06AB21E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D06BFED-BA56-477C-AF15-21F0E06AB21E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEA0B5F9-AB78-4EF6-823D-906D3E942674}
+	EndGlobalSection
+EndGlobal
