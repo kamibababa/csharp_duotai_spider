@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpSpider")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac95786df74f65104804450be415421cb53ea26e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpSpider")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpSpider")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

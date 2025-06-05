@@ -18,7 +18,7 @@ namespace CSharpSpider
             var doc = new HtmlDocument();
             doc.LoadHtml(listHtml);
 
-            var authorLinks = doc.DocumentNode.SelectNodes("//span/a");
+            var authorLinks = doc.DocumentNode.SelectNodes("/html/body/div[1]/div[2]/div[1]//span/a");
             var urls = new List<string>();
 
             if (authorLinks != null)
@@ -26,10 +26,10 @@ namespace CSharpSpider
                 foreach (var link in authorLinks)
                 {
                     var href = link.GetAttributeValue("href", "");
-                    if (!href.Contains("author"))
-                        continue;
+                    //if (!href.Contains("author"))
+                    //    continue;
 
-                    if (!href.StartsWith("http"))
+                    //if (!href.StartsWith("http"))
                         href = "https://quotes.toscrape.com" + href + "/";
 
                     urls.Add(href);
@@ -44,8 +44,8 @@ namespace CSharpSpider
             var doc = new HtmlDocument();
             doc.LoadHtml(detailHtml);
 
-            var name = doc.DocumentNode.SelectSingleNode("//h3")?.InnerText.Trim();
-            var desc = doc.DocumentNode.SelectSingleNode("//div[@class='author-description']")?.InnerText.Trim();
+            var name = doc.DocumentNode.SelectSingleNode("/html/body/div[1]/div[2]/h3")?.InnerText.Trim();
+            var desc = doc.DocumentNode.SelectSingleNode("/html/body/div[1]/div[2]/div")?.InnerText.Trim();
 
             Console.WriteLine($"【作者】{name}");
             Console.WriteLine($"【简介】{desc?.Substring(0, Math.Min(100, desc.Length))}");

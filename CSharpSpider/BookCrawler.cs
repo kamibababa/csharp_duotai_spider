@@ -10,6 +10,7 @@ namespace CSharpSpider
     using System.Collections.Generic;
     using System.Xml;
     using HtmlAgilityPack;
+    using static System.Collections.Specialized.BitVector32;
 
     class BookCrawler : Crawler
     {
@@ -26,7 +27,7 @@ namespace CSharpSpider
                 foreach (var link in bookLinks)
                 {
                     var href = link.GetAttributeValue("href", "");
-                    href = href.Replace("../", "");
+                    //href = href.Replace("../", "");
                     urls.Add("https://books.toscrape.com/" + href);
                 }
             }
@@ -39,13 +40,13 @@ namespace CSharpSpider
             var doc = new HtmlDocument();
             doc.LoadHtml(detailHtml);
 
-            var title = doc.DocumentNode.SelectSingleNode("//div[@class='product_main']/h1")?.InnerText.Trim();
-            var price = doc.DocumentNode.SelectSingleNode("//p[@class='price_color']")?.InnerText.Trim();
-            var desc = doc.DocumentNode.SelectSingleNode("//meta[@name='description']")?.GetAttributeValue("content", "").Trim();
+            var title = doc.DocumentNode.SelectSingleNode("/html/body/div[1]/div/div[2]/div[2]/article/div[1]/div[2]/h1")?.InnerText.Trim();
+            var price = doc.DocumentNode.SelectSingleNode("/html/body/div[1]/div/div[2]/div[2]/article/div[1]/div[2]/p[1]")?.InnerText.Trim();
+            //var desc = doc.DocumentNode.SelectSingleNode("//meta[@name='description']")?.GetAttributeValue("content", "").Trim();
 
             Console.WriteLine($"【书名】{title}");
             Console.WriteLine($"【价格】{price}");
-            Console.WriteLine($"【简介】{desc?.Substring(0, Math.Min(100, desc.Length))}");
+            //Console.WriteLine($"【简介】{desc?.Substring(0, Math.Min(100, desc.Length))}");
         }
     }
 
